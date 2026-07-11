@@ -1,0 +1,11 @@
+# Local reference/sample images
+sample/
+
+# Python cache and byte-code
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE configurations
+.vscode/
