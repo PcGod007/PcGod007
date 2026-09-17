@@ -17,25 +17,27 @@ text, tspan {white-space: pre;}
 </style>
 <rect width="1200px" height="850px" fill="#f6f8fa"/>
 
-<!-- ═══════════════════ Pc LOGO CARD ═══════════════════ -->
+<!-- ═══════════════════ PC BESPOKE EMBLEM CARD ═══════════════════ -->
 <defs>
   <linearGradient id="pcGradL" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#0550ae"/>
+    <stop offset="0%" stop-color="#0969da"/>
+    <stop offset="50%" stop-color="#0550ae"/>
     <stop offset="100%" stop-color="#8250df"/>
   </linearGradient>
   <linearGradient id="pcGradLH" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#0550ae"/>
+    <stop offset="0%" stop-color="#0969da"/>
+    <stop offset="50%" stop-color="#0550ae"/>
     <stop offset="100%" stop-color="#8250df"/>
   </linearGradient>
-  <filter id="glowFxL" x="-40%" y="-40%" width="180%" height="180%">
-    <feGaussianBlur in="SourceGraphic" stdDeviation="18" result="blur"/>
+  <filter id="glowFxL" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="14" result="blur"/>
     <feMerge>
       <feMergeNode in="blur"/>
       <feMergeNode in="SourceGraphic"/>
     </feMerge>
   </filter>
   <filter id="subtleGlowL" x="-20%" y="-20%" width="140%" height="140%">
-    <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+    <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
     <feMerge>
       <feMergeNode in="blur"/>
       <feMergeNode in="SourceGraphic"/>
@@ -44,91 +46,160 @@ text, tspan {white-space: pre;}
 </defs>
 
 <!-- Card shadow -->
-<rect x="26" y="42" width="462" height="784" rx="18" ry="18" fill="#afb8c1" opacity="0.3"/>
+<rect x="26" y="42" width="462" height="784" rx="20" ry="20" fill="#afb8c1" opacity="0.25"/>
 
 <!-- Main card body -->
-<rect x="20" y="36" width="462" height="784" rx="18" ry="18" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="20" y="36" width="462" height="784" rx="20" ry="20" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
 
 <!-- Terminal header bar -->
-<rect x="20" y="36" width="462" height="54" rx="18" ry="18" fill="#f6f8fa"/>
+<rect x="20" y="36" width="462" height="54" rx="20" ry="20" fill="#f6f8fa"/>
 <rect x="20" y="66" width="462" height="24" fill="#f6f8fa"/>
 
 <!-- Traffic light dots -->
 <circle cx="54" cy="63" r="7" fill="#f85149"/>
-<circle cx="54" cy="63" r="7" fill="none" stroke="#c0392b" stroke-width="0.5" opacity="0.4"/>
+<circle cx="54" cy="63" r="7" fill="none" stroke="#c0392b" stroke-width="0.5" opacity="0.5"/>
 <circle cx="80" cy="63" r="7" fill="#d29922"/>
-<circle cx="80" cy="63" r="7" fill="none" stroke="#b7771d" stroke-width="0.5" opacity="0.4"/>
+<circle cx="80" cy="63" r="7" fill="none" stroke="#b7771d" stroke-width="0.5" opacity="0.5"/>
 <circle cx="106" cy="63" r="7" fill="#3fb950"/>
-<circle cx="106" cy="63" r="7" fill="none" stroke="#2ea043" stroke-width="0.5" opacity="0.4"/>
+<circle cx="106" cy="63" r="7" fill="none" stroke="#2ea043" stroke-width="0.5" opacity="0.5"/>
 
 <!-- Header title -->
 <text x="251" y="68" text-anchor="middle" font-family="ConsolasFallback,Consolas,monospace" font-size="13" fill="#57606a">~/pcgod007 — bash</text>
+<text x="448" y="68" text-anchor="end" font-family="ConsolasFallback,Consolas,monospace" font-size="13" fill="#1a7f37" opacity="0.8">❯</text>
 
 <!-- Header divider -->
 <line x1="20" y1="90" x2="482" y2="90" stroke="#d0d7de" stroke-width="1"/>
 
-<!-- Subtle background grid -->
-<g stroke="#eaeef2" stroke-width="1" opacity="0.9">
-  <line x1="20" y1="188" x2="482" y2="188"/>
-  <line x1="20" y1="286" x2="482" y2="286"/>
-  <line x1="20" y1="384" x2="482" y2="384"/>
-  <line x1="20" y1="482" x2="482" y2="482"/>
-  <line x1="20" y1="580" x2="482" y2="580"/>
-  <line x1="20" y1="678" x2="482" y2="678"/>
-  <line x1="118" y1="90" x2="118" y2="820"/>
-  <line x1="216" y1="90" x2="216" y2="820"/>
-  <line x1="314" y1="90" x2="314" y2="820"/>
-  <line x1="412" y1="90" x2="412" y2="820"/>
+<!-- Background tech grid -->
+<g stroke="#eaeef2" stroke-width="1" opacity="0.8">
+  <line x1="20" y1="180" x2="482" y2="180"/>
+  <line x1="20" y1="270" x2="482" y2="270"/>
+  <line x1="20" y1="360" x2="482" y2="360"/>
+  <line x1="20" y1="450" x2="482" y2="450"/>
+  <line x1="20" y1="540" x2="482" y2="540"/>
+  <line x1="20" y1="630" x2="482" y2="630"/>
+  <line x1="110" y1="90" x2="110" y2="820"/>
+  <line x1="251" y1="90" x2="251" y2="820"/>
+  <line x1="392" y1="90" x2="392" y2="820"/>
 </g>
 
-<!-- Corner bracket accents (top-left) -->
-<polyline points="60,112 36,112 36,136" fill="none" stroke="url(#pcGradL)" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
-<!-- Corner bracket accents (top-right) -->
-<polyline points="443,112 466,112 466,136" fill="none" stroke="url(#pcGradL)" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
-<!-- Corner bracket accents (bottom-left) -->
-<polyline points="60,796 36,796 36,772" fill="none" stroke="url(#pcGradL)" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
-<!-- Corner bracket accents (bottom-right) -->
-<polyline points="443,796 466,796 466,772" fill="none" stroke="url(#pcGradL)" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+<!-- Telemetry header line -->
+<text x="45" y="118" font-family="ConsolasFallback,Consolas,monospace" font-size="11" fill="#0969da" letter-spacing="2">SYS.INIT // CORE_007</text>
+<text x="457" y="118" text-anchor="end" font-family="ConsolasFallback,Consolas,monospace" font-size="11" fill="#57606a" letter-spacing="1">ARCH: 64-BIT</text>
+<line x1="45" y1="130" x2="457" y2="130" stroke="#d0d7de" stroke-width="1" stroke-dasharray="3,4" opacity="0.7"/>
 
-<!-- Glow ambient blob behind Pc -->
-<ellipse cx="251" cy="440" rx="140" ry="170" fill="#0550ae" opacity="0.03"/>
-<ellipse cx="251" cy="440" rx="95" ry="115" fill="#8250df" opacity="0.04"/>
+<!-- Outer Circular HUD Reticle -->
+<circle cx="251" cy="350" r="162" fill="none" stroke="#d0d7de" stroke-width="1" stroke-dasharray="4,8" opacity="0.6"/>
+<circle cx="251" cy="350" r="146" fill="none" stroke="#eaeef2" stroke-width="1.2" opacity="0.8"/>
 
-<!-- Big Pc — deep glow halo -->
-<text x="251" y="530" text-anchor="middle" font-family="ConsolasFallback,Consolas,monospace" font-size="250" font-weight="bold" fill="url(#pcGradL)" opacity="0.12" filter="url(#glowFxL)">Pc</text>
+<!-- Reticle Cardinal Ticks -->
+<line x1="251" y1="180" x2="251" y2="192" stroke="url(#pcGradL)" stroke-width="2" stroke-linecap="round"/>
+<line x1="251" y1="508" x2="251" y2="520" stroke="url(#pcGradL)" stroke-width="2" stroke-linecap="round"/>
+<line x1="81" y1="350" x2="93" y2="350" stroke="url(#pcGradL)" stroke-width="2" stroke-linecap="round"/>
+<line x1="409" y1="350" x2="421" y2="350" stroke="url(#pcGradL)" stroke-width="2" stroke-linecap="round"/>
 
-<!-- Big Pc — soft outer glow -->
-<text x="251" y="530" text-anchor="middle" font-family="ConsolasFallback,Consolas,monospace" font-size="250" font-weight="bold" fill="url(#pcGradL)" opacity="0.25" filter="url(#subtleGlowL)">Pc</text>
+<!-- Precision Reticle Corner Brackets -->
+<polyline points="105,215 85,215 85,235" fill="none" stroke="url(#pcGradL)" stroke-width="1.8" opacity="0.8"/>
+<polyline points="397,215 417,215 417,235" fill="none" stroke="url(#pcGradL)" stroke-width="1.8" opacity="0.8"/>
+<polyline points="105,485 85,485 85,465" fill="none" stroke="url(#pcGradL)" stroke-width="1.8" opacity="0.8"/>
+<polyline points="397,485 417,485 417,465" fill="none" stroke="url(#pcGradL)" stroke-width="1.8" opacity="0.8"/>
 
-<!-- Big Pc — crisp main layer -->
-<text x="251" y="530" text-anchor="middle" font-family="ConsolasFallback,Consolas,monospace" font-size="250" font-weight="bold" fill="url(#pcGradL)">Pc</text>
+<!-- Reticle Coordinates -->
+<text x="90" y="210" font-size="9" fill="#57606a" opacity="0.7">00° N</text>
+<text x="412" y="210" text-anchor="end" font-size="9" fill="#57606a" opacity="0.7">HEX.007</text>
+<text x="90" y="498" font-size="9" fill="#57606a" opacity="0.7">270° W</text>
+<text x="412" y="498" text-anchor="end" font-size="9" fill="#57606a" opacity="0.7">90° E</text>
 
-<!-- Horizontal accent line under Pc -->
-<rect x="106" y="572" width="290" height="1.5" rx="1" fill="url(#pcGradLH)" opacity="0.55"/>
+<!-- Deep Ambient Halo behind Emblem -->
+<circle cx="251" cy="350" r="140" fill="#0969da" opacity="0.04" filter="url(#glowFxL)"/>
+<circle cx="251" cy="350" r="95" fill="#8250df" opacity="0.05" filter="url(#glowFxL)"/>
 
-<!-- Username label -->
-<text x="251" y="612" text-anchor="middle" font-family="ConsolasFallback,Consolas,monospace" font-size="18" fill="#57606a" letter-spacing="5">PcGod007</text>
+<!-- Octagonal Cyber Shield -->
+<path d="M 161 230 L 341 230 L 371 260 L 371 440 L 341 470 L 161 470 L 131 440 L 131 260 Z"
+      fill="#f6f8fa" stroke="url(#pcGradL)" stroke-width="1.5" opacity="0.95"/>
+<path d="M 166 237 L 336 237 L 364 265 L 364 435 L 336 463 L 166 463 L 138 435 L 138 265 Z"
+      fill="none" stroke="#eaeef2" stroke-width="1" stroke-dasharray="6,4" opacity="0.7"/>
 
-<!-- Decorative dot row -->
-<g fill="url(#pcGradL)">
-  <circle cx="191" cy="754" r="2.5" opacity="0.4"/>
-  <circle cx="211" cy="754" r="2.5" opacity="0.4"/>
-  <circle cx="231" cy="754" r="2.5" opacity="0.4"/>
-  <circle cx="251" cy="754" r="4.5" opacity="0.9"/>
-  <circle cx="271" cy="754" r="2.5" opacity="0.4"/>
-  <circle cx="291" cy="754" r="2.5" opacity="0.4"/>
-  <circle cx="311" cy="754" r="2.5" opacity="0.4"/>
-</g>
+<!-- Circuit Nodes on Shield -->
+<path d="M 131 350 L 112 350 L 98 364" fill="none" stroke="url(#pcGradL)" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="98" cy="364" r="2.5" fill="#0969da"/>
+<path d="M 371 350 L 390 350 L 404 336" fill="none" stroke="url(#pcGradL)" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="404" cy="336" r="2.5" fill="#8250df"/>
 
-<!-- Animated scan line -->
-<rect x="20" y="90" width="462" height="2" fill="url(#pcGradLH)" opacity="0.08">
-  <animate attributeName="y" values="90;818;90" dur="8s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.08;0.01;0.08" dur="8s" repeatCount="indefinite"/>
+<!-- ═══ THE HANDCRAFTED PC MONOGRAM (Layered Vector Craft) ═══ -->
+<!-- Monogram Glow Layer 1 (Deep Atmospheric Glow) -->
+<path d="M 156 275 L 171 260 L 240 260 C 264 260, 272 276, 272 295 L 272 315 C 272 334, 264 350, 240 350 L 192 350 L 192 425 L 177 440 L 171 440 L 156 425 Z M 192 292 L 232 292 C 242 292, 246 298, 246 305 L 246 305 C 246 312, 242 318, 232 318 L 192 318 Z" fill="url(#pcGradL)" filter="url(#glowFxL)" opacity="0.15" fill-rule="evenodd"/>
+<path d="M 284 300 L 296 288 C 306 276, 314 260, 328 260 L 328 260 C 340 260, 346 272, 346 288 L 346 412 C 346 428, 340 440, 328 440 L 210 440 L 200 430 L 200 414 L 210 412 L 312 412 C 318 412, 320 406, 320 395 L 320 305 C 320 294, 318 288, 312 288 L 294 288 Z" fill="url(#pcGradL)" filter="url(#glowFxL)" opacity="0.15"/>
+
+<!-- Monogram Glow Layer 2 (Tight Edge Glow) -->
+<path d="M 156 275 L 171 260 L 240 260 C 264 260, 272 276, 272 295 L 272 315 C 272 334, 264 350, 240 350 L 192 350 L 192 425 L 177 440 L 171 440 L 156 425 Z M 192 292 L 232 292 C 242 292, 246 298, 246 305 L 246 305 C 246 312, 242 318, 232 318 L 192 318 Z" fill="url(#pcGradL)" filter="url(#subtleGlowL)" opacity="0.25" fill-rule="evenodd"/>
+<path d="M 284 300 L 296 288 C 306 276, 314 260, 328 260 L 328 260 C 340 260, 346 272, 346 288 L 346 412 C 346 428, 340 440, 328 440 L 210 440 L 200 430 L 200 414 L 210 412 L 312 412 C 318 412, 320 406, 320 395 L 320 305 C 320 294, 318 288, 312 288 L 294 288 Z" fill="url(#pcGradL)" filter="url(#subtleGlowL)" opacity="0.25"/>
+
+<!-- Monogram Crisp Vector Glyphs -->
+<path d="M 156 275 L 171 260 L 240 260 C 264 260, 272 276, 272 295 L 272 315 C 272 334, 264 350, 240 350 L 192 350 L 192 425 L 177 440 L 171 440 L 156 425 Z M 192 292 L 232 292 C 242 292, 246 298, 246 305 L 246 305 C 246 312, 242 318, 232 318 L 192 318 Z" fill="url(#pcGradL)" fill-rule="evenodd"/>
+<path d="M 284 300 L 296 288 C 306 276, 314 260, 328 260 L 328 260 C 340 260, 346 272, 346 288 L 346 412 C 346 428, 340 440, 328 440 L 210 440 L 200 430 L 200 414 L 210 412 L 312 412 C 318 412, 320 406, 320 395 L 320 305 C 320 294, 318 288, 312 288 L 294 288 Z" fill="url(#pcGradL)"/>
+
+<!-- Specular Bevel Highlights (Laser-Milled Finish) -->
+<line x1="171" y1="261" x2="240" y2="261" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.75"/>
+<path d="M 240 261 C 262 261, 271 275, 271 292" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+<line x1="157" y1="277" x2="157" y2="423" stroke="#0969da" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+<line x1="192" y1="293" x2="232" y2="293" stroke="#ffffff" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+<path d="M 296 261 L 328 261 C 340 261, 345 272, 345 288" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.75"/>
+<line x1="210" y1="413" x2="312" y2="413" stroke="url(#pcGradL)" stroke-width="1.2" stroke-linecap="round" opacity="0.8"/>
+
+<!-- ═══ EMBLEM BRANDING & TELEMETRY ═══ -->
+<!-- Glassmorphic Brand Badge -->
+<rect x="146" y="496" width="210" height="36" rx="18" fill="#ffffff" stroke="url(#pcGradL)" stroke-width="1.3"/>
+<circle cx="170" cy="514" r="7" fill="none" stroke="#1a7f37" stroke-width="1" opacity="0.5"/>
+<circle cx="170" cy="514" r="4" fill="#1a7f37">
+  <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+</circle>
+<text x="254" y="520" text-anchor="middle" font-family="ConsolasFallback,Consolas,monospace" font-size="14" font-weight="bold" fill="#24292f" letter-spacing="4">PCGOD007</text>
+
+<!-- Subtitle / Identity -->
+<text x="251" y="554" text-anchor="middle" font-family="ConsolasFallback,Consolas,monospace" font-size="11" fill="#57606a" letter-spacing="2.5">DEV // ARCHITECT</text>
+
+<!-- Telemetry Gauge Module -->
+<line x1="45" y1="576" x2="457" y2="576" stroke="#d0d7de" stroke-width="1" opacity="0.8"/>
+
+<!-- Gauges -->
+<text x="48" y="600" font-size="10" fill="#57606a">PWR</text>
+<rect x="78" y="592" width="70" height="8" rx="2" fill="#eaeef2"/>
+<rect x="78" y="592" width="60" height="8" rx="2" fill="url(#pcGradL)"/>
+
+<text x="180" y="600" font-size="10" fill="#57606a">SYS</text>
+<rect x="210" y="592" width="70" height="8" rx="2" fill="#eaeef2"/>
+<rect x="210" y="592" width="66" height="8" rx="2" fill="url(#pcGradL)"/>
+
+<text x="312" y="600" font-size="10" fill="#57606a">NET</text>
+<rect x="342" y="592" width="70" height="8" rx="2" fill="#eaeef2"/>
+<rect x="342" y="592" width="54" height="8" rx="2" fill="url(#pcGradL)"/>
+
+<!-- Spec row -->
+<text x="48" y="626" font-size="10" fill="#0969da" opacity="0.9">KERNEL: 6.8.0-DEV</text>
+<text x="251" y="626" text-anchor="middle" font-size="10" fill="#8250df" opacity="0.9">NODE: IN-044</text>
+<text x="454" y="626" text-anchor="end" font-size="10" fill="#1a7f37" opacity="0.9">STATUS: VERIFIED</text>
+<line x1="45" y1="642" x2="457" y2="642" stroke="#d0d7de" stroke-width="1" opacity="0.8"/>
+
+<!-- Interactive Command Console Box -->
+<rect x="42" y="662" width="418" height="82" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<text x="56" y="686" font-size="11" fill="#57606a">$ <tspan fill="#1a7f37">pcgod007</tspan> --status <tspan fill="#0969da">--verified</tspan></text>
+<text x="56" y="707" font-size="11" fill="#1a7f37">[✓] System active. Welcome, Pranav.</text>
+<text x="56" y="728" font-size="11" fill="#57606a">$ <tspan fill="#0969da">git</tspan> status <tspan fill="#57606a"># branch main (synced)</tspan></text>
+<rect x="350" y="718" width="7" height="13" fill="#0969da">
+  <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
 </rect>
 
-<!-- Top-right micro badge: ❯ prompt -->
-<text x="448" y="68" text-anchor="end" font-family="ConsolasFallback,Consolas,monospace" font-size="13" fill="#1a7f37" opacity="0.7">❯</text>
-<!-- ═══════════════════════════════════════════════════ -->
+<!-- Card Corner Tech Accents -->
+<polyline points="50,805 35,805 35,790" fill="none" stroke="url(#pcGradL)" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+<polyline points="452,805 467,805 467,790" fill="none" stroke="url(#pcGradL)" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+<!-- Animated Sweep Scan Line -->
+<rect x="20" y="90" width="462" height="2" fill="url(#pcGradLH)" opacity="0.08">
+  <animate attributeName="y" values="90;818;90" dur="9s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.08;0.01;0.08" dur="9s" repeatCount="indefinite"/>
+</rect>
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
 <circle cx="948" cy="74" r="8" fill="none" stroke="#22c55e" stroke-width="2" opacity="0.6"/>
 <circle cx="948" cy="74" r="4" fill="#22c55e">
