@@ -95,26 +95,19 @@ text, tspan {white-space: pre;}
 <ellipse cx="251" cy="440" rx="95" ry="115" fill="#8250df" opacity="0.04"/>
 
 <!-- Big Pc — deep glow halo -->
-<text x="251" y="530" text-anchor="middle"
-      font-family="ConsolasFallback,Consolas,monospace" font-size="250" font-weight="bold"
-      fill="url(#pcGradL)" opacity="0.12" filter="url(#glowFxL)">Pc</text>
+<text x="251" y="530" text-anchor="middle" font-family="ConsolasFallback,Consolas,monospace" font-size="250" font-weight="bold" fill="url(#pcGradL)" opacity="0.12" filter="url(#glowFxL)">Pc</text>
 
 <!-- Big Pc — soft outer glow -->
-<text x="251" y="530" text-anchor="middle"
-      font-family="ConsolasFallback,Consolas,monospace" font-size="250" font-weight="bold"
-      fill="url(#pcGradL)" opacity="0.25" filter="url(#subtleGlowL)">Pc</text>
+<text x="251" y="530" text-anchor="middle" font-family="ConsolasFallback,Consolas,monospace" font-size="250" font-weight="bold" fill="url(#pcGradL)" opacity="0.25" filter="url(#subtleGlowL)">Pc</text>
 
 <!-- Big Pc — crisp main layer -->
-<text x="251" y="530" text-anchor="middle"
-      font-family="ConsolasFallback,Consolas,monospace" font-size="250" font-weight="bold"
-      fill="url(#pcGradL)">Pc</text>
+<text x="251" y="530" text-anchor="middle" font-family="ConsolasFallback,Consolas,monospace" font-size="250" font-weight="bold" fill="url(#pcGradL)">Pc</text>
 
 <!-- Horizontal accent line under Pc -->
 <rect x="106" y="572" width="290" height="1.5" rx="1" fill="url(#pcGradLH)" opacity="0.55"/>
 
 <!-- Username label -->
-<text x="251" y="612" text-anchor="middle"
-      font-family="ConsolasFallback,Consolas,monospace" font-size="18" fill="#57606a" letter-spacing="5">PcGod007</text>
+<text x="251" y="612" text-anchor="middle" font-family="ConsolasFallback,Consolas,monospace" font-size="18" fill="#57606a" letter-spacing="5">PcGod007</text>
 
 <!-- Decorative dot row -->
 <g fill="url(#pcGradL)">
