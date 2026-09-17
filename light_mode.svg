@@ -126,24 +126,28 @@ text, tspan {white-space: pre;}
 
 <!-- ═══ THE HANDCRAFTED PC MONOGRAM (Layered Vector Craft) ═══ -->
 <!-- Monogram Glow Layer 1 (Deep Atmospheric Glow) -->
-<path d="M 156 275 L 171 260 L 240 260 C 264 260, 272 276, 272 295 L 272 315 C 272 334, 264 350, 240 350 L 192 350 L 192 425 L 177 440 L 171 440 L 156 425 Z M 192 292 L 232 292 C 242 292, 246 298, 246 305 L 246 305 C 246 312, 242 318, 232 318 L 192 318 Z" fill="url(#pcGradL)" filter="url(#glowFxL)" opacity="0.15" fill-rule="evenodd"/>
-<path d="M 284 300 L 296 288 C 306 276, 314 260, 328 260 L 328 260 C 340 260, 346 272, 346 288 L 346 412 C 346 428, 340 440, 328 440 L 210 440 L 200 430 L 200 414 L 210 412 L 312 412 C 318 412, 320 406, 320 395 L 320 305 C 320 294, 318 288, 312 288 L 294 288 Z" fill="url(#pcGradL)" filter="url(#glowFxL)" opacity="0.15"/>
+<path d="M 148 275 L 163 260 L 224 260 C 246 260, 254 274, 254 295 L 254 315 C 254 336, 246 350, 224 350 L 184 350 L 184 425 L 169 440 L 163 440 L 148 425 Z M 184 294 L 216 294 C 226 294, 228 300, 228 305 C 228 310, 226 316, 216 316 L 184 316 Z" fill="url(#pcGradL)" filter="url(#glowFxL)" opacity="0.15" fill-rule="evenodd"/>
+<path d="M 352 292 L 352 270 L 342 260 L 282 260 C 272 260, 266 270, 266 286 L 266 414 C 266 430, 272 440, 282 440 L 342 440 L 352 430 L 352 408 L 304 408 C 300 408, 298 404, 298 396 L 298 304 C 298 296, 300 292, 304 292 Z" fill="url(#pcGradL)" filter="url(#glowFxL)" opacity="0.15"/>
 
 <!-- Monogram Glow Layer 2 (Tight Edge Glow) -->
-<path d="M 156 275 L 171 260 L 240 260 C 264 260, 272 276, 272 295 L 272 315 C 272 334, 264 350, 240 350 L 192 350 L 192 425 L 177 440 L 171 440 L 156 425 Z M 192 292 L 232 292 C 242 292, 246 298, 246 305 L 246 305 C 246 312, 242 318, 232 318 L 192 318 Z" fill="url(#pcGradL)" filter="url(#subtleGlowL)" opacity="0.25" fill-rule="evenodd"/>
-<path d="M 284 300 L 296 288 C 306 276, 314 260, 328 260 L 328 260 C 340 260, 346 272, 346 288 L 346 412 C 346 428, 340 440, 328 440 L 210 440 L 200 430 L 200 414 L 210 412 L 312 412 C 318 412, 320 406, 320 395 L 320 305 C 320 294, 318 288, 312 288 L 294 288 Z" fill="url(#pcGradL)" filter="url(#subtleGlowL)" opacity="0.25"/>
+<path d="M 148 275 L 163 260 L 224 260 C 246 260, 254 274, 254 295 L 254 315 C 254 336, 246 350, 224 350 L 184 350 L 184 425 L 169 440 L 163 440 L 148 425 Z M 184 294 L 216 294 C 226 294, 228 300, 228 305 C 228 310, 226 316, 216 316 L 184 316 Z" fill="url(#pcGradL)" filter="url(#subtleGlowL)" opacity="0.25" fill-rule="evenodd"/>
+<path d="M 352 292 L 352 270 L 342 260 L 282 260 C 272 260, 266 270, 266 286 L 266 414 C 266 430, 272 440, 282 440 L 342 440 L 352 430 L 352 408 L 304 408 C 300 408, 298 404, 298 396 L 298 304 C 298 296, 300 292, 304 292 Z" fill="url(#pcGradL)" filter="url(#subtleGlowL)" opacity="0.25"/>
 
 <!-- Monogram Crisp Vector Glyphs -->
-<path d="M 156 275 L 171 260 L 240 260 C 264 260, 272 276, 272 295 L 272 315 C 272 334, 264 350, 240 350 L 192 350 L 192 425 L 177 440 L 171 440 L 156 425 Z M 192 292 L 232 292 C 242 292, 246 298, 246 305 L 246 305 C 246 312, 242 318, 232 318 L 192 318 Z" fill="url(#pcGradL)" fill-rule="evenodd"/>
-<path d="M 284 300 L 296 288 C 306 276, 314 260, 328 260 L 328 260 C 340 260, 346 272, 346 288 L 346 412 C 346 428, 340 440, 328 440 L 210 440 L 200 430 L 200 414 L 210 412 L 312 412 C 318 412, 320 406, 320 395 L 320 305 C 320 294, 318 288, 312 288 L 294 288 Z" fill="url(#pcGradL)"/>
+<path d="M 148 275 L 163 260 L 224 260 C 246 260, 254 274, 254 295 L 254 315 C 254 336, 246 350, 224 350 L 184 350 L 184 425 L 169 440 L 163 440 L 148 425 Z M 184 294 L 216 294 C 226 294, 228 300, 228 305 C 228 310, 226 316, 216 316 L 184 316 Z" fill="url(#pcGradL)" fill-rule="evenodd"/>
+<path d="M 352 292 L 352 270 L 342 260 L 282 260 C 272 260, 266 270, 266 286 L 266 414 C 266 430, 272 440, 282 440 L 342 440 L 352 430 L 352 408 L 304 408 C 300 408, 298 404, 298 396 L 298 304 C 298 296, 300 292, 304 292 Z" fill="url(#pcGradL)"/>
 
 <!-- Specular Bevel Highlights (Laser-Milled Finish) -->
-<line x1="171" y1="261" x2="240" y2="261" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.75"/>
-<path d="M 240 261 C 262 261, 271 275, 271 292" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
-<line x1="157" y1="277" x2="157" y2="423" stroke="#0969da" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
-<line x1="192" y1="293" x2="232" y2="293" stroke="#ffffff" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
-<path d="M 296 261 L 328 261 C 340 261, 345 272, 345 288" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.75"/>
-<line x1="210" y1="413" x2="312" y2="413" stroke="url(#pcGradL)" stroke-width="1.2" stroke-linecap="round" opacity="0.8"/>
+<line x1="163" y1="261" x2="224" y2="261" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.75"/>
+<path d="M 224 261 C 244 261, 253 274, 253 295" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+<line x1="149" y1="275" x2="149" y2="425" stroke="#0969da" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+<line x1="184" y1="295" x2="216" y2="295" stroke="#ffffff" stroke-width="1" opacity="0.5"/>
+
+<!-- C Specular Highlights -->
+<line x1="282" y1="261" x2="342" y2="261" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.75"/>
+<line x1="342" y1="261" x2="352" y2="271" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.75"/>
+<line x1="267" y1="286" x2="267" y2="414" stroke="#0969da" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+<line x1="304" y1="409" x2="352" y2="409" stroke="url(#pcGradL)" stroke-width="1.2" stroke-linecap="round" opacity="0.8"/>
 
 <!-- ═══ EMBLEM BRANDING & TELEMETRY ═══ -->
 <!-- Glassmorphic Brand Badge -->
